@@ -8,7 +8,7 @@ metadata:
 apiVersion: v1
 kind: Service
 metadata:
-  name: cool1
+  name: cool2
   namespace: cool
   labels:
     app: podinfo
@@ -21,4 +21,3 @@ spec:
     port: 9898
     protocol: TCP
     targetPort: http
-
